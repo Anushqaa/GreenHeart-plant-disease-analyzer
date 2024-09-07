@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+streamlit
+opencv-python
+scikit-learn
+torch
+google-generativeai
+python-dotenv
+ultralytics
