@@ -9,7 +9,7 @@ api_key = os.getenv("GOOGLE_API_KEY")
 
 def set_model():
     """Configure the Generative AI model using the Gemini API."""
-    genai.configure(api_key='AIzaSyDIRz_Nrocg0F-QVVIfJOI-qrJlcU7iQq8')
+    genai.configure(api_key=api_key)
 
     generation_config = {
         "temperature": 0.4,

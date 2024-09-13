@@ -54,7 +54,7 @@ def leaf_disease_analyzer():
 
 def crop_recommender():
 
-    st.title("🌱 Crop Recommender")
+    st.title("🌱 CROP RECOMMENDATION")
     st.write("Input your sensor data to find the optimal crops for your conditions.")
 
     season = st.text_input("Enter the Season", placeholder="e.g., 'summer'")
